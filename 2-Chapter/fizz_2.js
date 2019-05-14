@@ -3,7 +3,7 @@ countTo100 = () => {
 	for ( i = 0; i <= 100; i++ ) {
 		let stringP = "";
 		if ( i % 3 === 0 ) {
-			stringP = stringP + "Fizz"
+			stringP = stringP + "Fizz";
 			if ( i % 5 === 0 ) {
 				stringP = stringP + "Buzz"
 			}
